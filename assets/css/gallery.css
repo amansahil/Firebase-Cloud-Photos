@@ -1,0 +1,45 @@
+body {
+	padding-top: 60px;
+	background: #2BC0E4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form {
+	width: 50%; 
+}
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+.row .flexRow {
+	display:flex;
+	flex-wrap: wrap;
+}
+.navbar-inverse {
+	background: #2c3e50;	
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+#uploader {
+	display: none;
+}
+.thumbnail {
+    padding: 0;
+}
+.thumbnail .caption-full{
+    padding: 9px;
+}
+span {
+	opacity: 0;
+	display: none;
+}
+.thumbnail:hover span{
+	opacity: 1.0;
+	display: block;
+}
+

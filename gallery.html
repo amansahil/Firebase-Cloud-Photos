@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photos</title>
+
+	<meta charset="utf-8"/>
+
+	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+
+	<link rel="stylesheet" type="text/css" href="assets/css/gallery.css">
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+	<div class="navbar-header">
+		<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Images</a>
+	</div>
+	<ul class="nav navbar-nav navbar-right">
+		<li><a href="#" id='logout'>Logout</a></li>
+	</ul>
+</div>
+</nav>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1><i class="fas fa-camera-retro"></i> Image Gallery</h1><br>
+		<p><progress value="0" max="100" id="uploader">0%</progress></p>
+		<p><input type="file" class="btn btn-primary btn-lg" id="file"></p>
+	</div>
+	<div class="row flexRow">
+		<div class="photos">
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="assets/js/gallery.js"></script>
+</body>
+</html>
