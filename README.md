@@ -36,6 +36,19 @@ This is the React-Cloud-Photos project without React
 
 For more info check out - https://firebase.google.com/docs/web/setup
 
+## Screenshots
+
+## Screenshots
+
+<b>Login Screen</b>
+<img width="1440" alt="screen shot 2018-06-06 at 3 23 05 pm" src="https://user-images.githubusercontent.com/33552991/41067928-61749b24-69f8-11e8-9f8c-b71409685d17.png">
+
+<b>Home Screen (Initial)</b>
+<img width="1440" alt="screen shot 2018-06-07 at 2 45 46 am" src="https://user-images.githubusercontent.com/33552991/41069142-afefed58-69fd-11e8-8a98-76f62eb3e37b.png">
+
+<b>Home Screen (After an upload of a picture)</b>
+<img width="1440" alt="screen shot 2018-06-07 at 2 46 05 am" src="https://user-images.githubusercontent.com/33552991/41069161-c5b1b81a-69fd-11e8-8558-2d99c99f103e.png">
+
 ## Extras
 
 Check out the react version of the app intergrated with Google Cloud Vision API and its Lighthouse score here - https://github.com/amansahil/React-Cloud-Photos
