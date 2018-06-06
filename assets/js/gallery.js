@@ -27,7 +27,7 @@ firebase.auth().onAuthStateChanged(function(user) {
   			var itemVal = item.val();
   			var key = Object.keys(snapshot.val())[i];
   			i++;
-  			document.querySelector(".photos").innerHTML += `<div class="col-md-3 col-sm-6"><div class="thumbnail"><span id =${key}><i class='fa fa-times'></i></span><img src="${itemVal.link}"></div></div>`;
+  			document.querySelector(".photos").innerHTML += `<div class="thumbnail"><span id =${key}><i class='fa fa-times'></i></span><img src="${itemVal.link}"></div>`;
   		});
   	});
 
