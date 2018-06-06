@@ -1,8 +1,6 @@
 # Firebase-Cloud-Photos
 This is the React-Cloud-Photos project without React
 
-<b>Note: This project is only created for comparing a react app with a non react app</b>
-
 ## Setting up firebase
 
 1) Go to firebase.com
